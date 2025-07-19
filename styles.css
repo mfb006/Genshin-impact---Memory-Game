@@ -218,8 +218,8 @@ and not directly in the div front).*/
     }
 
     .card .front, .card .back {
-    width: 90%;
-    height: 70%;}
+    width: 110%;
+    height: 90%;}
 }
 
 @media (max-width: 375px) {
@@ -257,7 +257,7 @@ and not directly in the div front).*/
     }
 
     .card .front, .card .back {
-    width: 90%;
-    height: 70%;}
+    width: 110%;
+    height: 90%;}
 }
 
