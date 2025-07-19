@@ -154,47 +154,7 @@ and not directly in the div front).*/
     .memory-game {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        gap: 15px;
-    }
-
-    .card {
-        width: 30px;
-        height: 30px;
-    }
-
-    .card .back img {
-        width: 30px;
-        height: 30px;
-    }
-
-    h1 {
-        font-size: 23px;
-        margin-top: 30px;
-    }
-    
-    p{
-        font-size: 17px;
-    }
-
-    .restart {
-        width: 100px;
-        height: 30px;
-        font-size: 15px;
-        top: 15px;
-        padding-bottom: 25px;
-    }
-
-    .card .front, .card .back {
-    width: 100%;
-    height: 80%; }
-
-}
-
-@media (max-width: 375px) {
-    .memory-game {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        gap: 15px;
+        gap: 10px;
     }
 
     .card {
@@ -225,8 +185,48 @@ and not directly in the div front).*/
     }
 
         .card .front, .card .back {
-    width: 100%;
-    height: 80%; }
+    width: 120%;
+    height: 90%; }
+
+}
+
+@media (max-width: 375px) {
+    .memory-game {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+    }
+
+    .card {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card .back img {
+        width: 30px;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 23px;
+        margin-top: 30px;
+    }
+    
+    p{
+        font-size: 17px;
+    }
+
+    .restart {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        top: 15px;
+        padding-bottom: 25px;
+    }
+
+        .card .front, .card .back {
+    width: 120%;
+    height: 90%; }
 
 }
 
