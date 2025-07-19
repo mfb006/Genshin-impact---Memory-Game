@@ -187,7 +187,7 @@ and not directly in the div front).*/
     .memory-game {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        gap: 10px;
+        gap: 7px;
     }
 
     .card {
@@ -226,7 +226,7 @@ and not directly in the div front).*/
     .memory-game {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        gap: 10px;
+        gap: 7px;
     }
 
     .card {
